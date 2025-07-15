@@ -1,0 +1,607 @@
+.one{
+    background-color: black;
+    padding-left: 25px;
+    height: 70px;
+    padding-top: 3px;
+    opacity: 0.8;
+    padding-top: 20px;
+    position: fixed;
+    top: 0%;
+    z-index: 1;
+    width: 1500px;
+}
+.one h1{
+  display: inline-block;
+}
+.one h2{
+    display: inline-block;
+    color: white;
+    opacity: 0.7;
+    margin-left: 20px;
+    font-weight: lighter;
+    }
+.one li{
+    display: inline-block;
+     margin-left: 20px;
+}
+.one ul{
+    display: inline-block;
+    color: white;
+    margin-left: 800px;
+}
+.two li{
+     display: inline-block;
+     margin-left: 50px;
+     font-size: 20px;
+}
+.two ul{
+    margin-left: 520px;
+    margin-top: 40px;
+}
+.two li:last-child{
+    margin-left: 80px;
+    opacity: 0.5;
+    border: 1px solid orangered;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+*{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+.two li:last-child:hover{
+    cursor: pointer;
+    background-color: orangered;
+    opacity: 1;
+
+}
+.three{
+    background-image: url(https://preview.colorlib.com/theme/allfood/assets/img/hero/h1_hero.png.webp);
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+}
+.four p{
+    position:absolute;
+    margin-left: 80px;
+    font-size: 20px;
+}
+.four h1{
+    position:absolute;
+    margin-left: 80px ;
+    margin-top: 50px;
+    font-size: 75px;
+}
+.four h4{
+    position:absolute;
+    top: 290px;
+    left: 80px;
+    font-size: 20px;
+    opacity: 0.9;
+    padding-top: 70px;
+    font-weight: lighter;
+
+}
+.four h5{
+    background-color: orangered;
+    color: white;
+    position:absolute;
+    top: 460px;
+    left: 80px;
+    height: 38px;
+    width: 120px;
+    border-radius: 10px;
+    padding-left: 20px;
+    text-align: center;
+    padding-top: 19px;
+    font-size: 18px;
+}
+.four{
+    padding-top: 100px;
+}
+.five{
+    margin-top: 150px;
+}
+.six p{
+    margin-left: 80px;
+    font-size: 20px;
+}
+.six h1{
+    margin-left: 80px;
+    font-size: 65px;
+    font-weight: lighter;
+}
+.six h5{
+    margin-left: 80px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.seven{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+}
+.five{
+    display: flex;
+    gap: 60px;
+}
+.leven{
+    background-image: url(https://preview.colorlib.com/theme/allfood/assets/img/gallery/section_bg01.png.webp);
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+    margin-top: 30px;
+    position: relative;
+}
+.ten p{
+    position: absolute;
+    margin-left: 600px;
+    top: 100px;
+    
+}
+.ten h1{
+    position: absolute;
+    font-size: 55px;
+    margin-left: 450px;
+    font-weight: bold;
+    top: 160px;
+}
+.twelve{
+    display: inline-block;
+    position: relative;
+}
+.twelve li{
+     display: inline-block;
+     margin-left: 60px;
+     font-size: 20px;
+     height: 30px;
+    width: 100px;
+     
+}
+.twelve ul{
+    display: inline-block;
+    padding-top: 325px;
+    margin-left: 360px;
+}
+.twelve li:hover{
+    background-color: orangered;
+    color: antiquewhite;
+    
+    text-align: center;
+    
+    display: inline-block;
+}
+.thirteen{
+    margin-top: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 700px;
+    
+}
+.fourteen{
+    background-image: url(https://preview.colorlib.com/theme/allfood/assets/img/gallery/gallery1.png.webp);
+    height: 700px;
+    width: 500px;
+    position: relative;
+
+    
+}
+
+.fifteen{
+    position:absolute;
+    color: white;
+    top: 300px;
+    left: 140px;
+    opacity: 0;
+    /* overflow: hidden; */
+    
+    /* display: none; */
+   
+}
+.fourteen:hover .fifteen {
+    /* display: block; */
+    opacity: 1;
+    
+    transform:translateY(-100px);
+    transition: transform 1s;
+}
+.fifteen h4{
+    background-color: orangered;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    padding-top: 5px;
+}
+.sixteen{
+    background-image: url(https://preview.colorlib.com/theme/allfood/assets/img/gallery/gallery2.png.webp);
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 490px;
+    position: relative;
+}
+.fifteen{
+    position:absolute;
+    color: white;
+    top: 330px;
+    left: 140px;
+    opacity: 0;
+    /* display: none; */
+}
+.sixteen:hover .fifteen{
+    /* display: block; */
+        transform:translateY(-120px);
+    transition: transform 1s;
+    opacity: 1;
+
+}
+.fifteen h4{
+    background-color: orangered;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    padding-top: 5px;
+}
+.seventeen{
+      background-image: url(https://preview.colorlib.com/theme/allfood/assets/img/gallery/gallery3.png.webp);
+      height: 350;
+      width: 360;
+      position: relative;
+}
+.seventeen .fifteen {
+    position:absolute;
+    color: white;
+    top: 200px;
+    left: 120px;
+    opacity: 0;
+    /* display: none; */
+}
+.seventeen:hover .fifteen{
+    /* display: block; */
+        transform:translateY(-100px);
+    transition: transform 1s;
+    opacity: 1;
+
+}
+.fifteen h4{
+    background-color: orangered;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    padding-top: 5px;
+}
+.eighteen{
+      background-image: url(https://preview.colorlib.com/theme/allfood/assets/img/gallery/gallery4.png.webp);
+      height: 360px;
+      width: 360;
+      position: relative;
+      left: 990px;
+      bottom:360px;
+      overflow: hidden;
+}    
+.eighteen .fifteen {
+    position:absolute;
+    color: white;
+    top: 200px;
+    left: 120px;
+    overflow: hidden;
+    opacity: 0;
+    /* height: 100px; */
+    /* width: 240px; */
+    
+    /* display: none; */
+}
+.eighteen:hover .fifteen{
+    /* display: block; */
+    overflow: hidden;
+        transform:translateY(-170px);
+    transition: transform 2s;
+    opacity: 1;
+
+}
+.fifteen h4{
+    background-color: orangered;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    padding-top: 5px;
+}
+.nineteen{
+    margin-top: 80px;
+    margin-left: 50px;
+    display: flex;
+    gap: 160px;
+    
+}
+.twentyone{
+    margin-top: 50px;
+}
+.twentyone h1{
+     font-size: 60px;
+
+}
+.twentyone h4{
+     font-size: 20px;
+     opacity: 0.8;
+     font-weight: lighter;
+}
+.twentyone h5{
+
+    font-size: 20px;
+    opacity: 0.7;
+    font-weight: lighter;
+}
+.twentyone h6{
+     opacity: 0.7;
+     border: 1px solid orangered;
+     height: 40px;
+     width: 150px;
+     text-align: center;
+     padding-top: 10px;
+     margin-top: 100px;
+     font-size: 15px;
+     border-radius: 10px;
+}
+.twentytwo{
+    margin-top: 100px;
+    
+}
+.twentytwo{
+    background-image: url(https://preview.colorlib.com/theme/allfood/assets/img/gallery/section_bg04.png.webp);
+    height: 570px;
+    width: 100%;
+    position: relative;
+}
+.twentythree{
+    position:absolute;
+    top: 300px;
+    left: 100px;
+    margin-left: 100px;
+    background-color:white;
+    height: 150px;
+    width: 1100px;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.twentyfour{
+    margin-left: 40px;
+    opacity: 0.7;
+}
+.twentyfive{
+    margin-left: 70px;
+    opacity: 0.7;
+}
+.twentysix{
+    margin-left: 70px;
+    opacity: 0.7;
+}
+.twentyseven{
+    margin-left: 70px;
+    opacity: 0.7;
+}
+.twentythree input{
+    height: 40px;
+    width: 200px;
+}
+.twentyseven h3{
+    background-color: orangered;
+    color: white;
+    height: 30px;
+    width: 140px;
+    padding-top: 7px;
+    opacity: 1;
+    z-index: 1;
+    
+    
+}
+.heading p{
+    position: absolute;
+    left: 600px;
+    top: 50px;
+}
+
+.heading h2{
+    position: absolute;
+    top: 70px;
+    left: 550px;
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: lighter;
+}
+.twentyeight p{
+    margin-top: 150px;
+    margin-left: 500px;
+    font-size: 20px;
+}
+.twentyeight h1{
+    margin-top: 40px;
+    margin-left: 400px;
+    font-size: 50px;
+}
+.twentynine{
+    display: flex;
+    margin-top: 80px;
+    gap: 40px;
+    justify-content: space-around;
+    margin-right: 20px;
+}
+.chef{
+    margin-left:100px ;
+    margin-top: 30px;
+    
+
+}
+.thirtyone{
+    background-image: url(https://preview.colorlib.com/theme/allfood/assets/img/gallery/section_bg03.png.webp);
+    width: 100%;
+    height: 700px;
+    margin-top: 60px;
+    position:relative;
+}
+.thirtytwo p{
+    position: absolute;
+    left: 800px;
+    top: 150px;
+}
+.thirtytwo h1{
+    position: absolute;
+    left: 800px;
+    top: 200px;
+    font-size: 60px;
+    font-weight: lighter;
+}
+.thirtytwo h4{
+    position: absolute;
+    left: 800px;
+    top: 400px;
+    font-size: 20px;
+    font-weight: lighter
+}
+.thirtytwo h2{
+    position: absolute;
+    left: 800px;
+    top: 600px;
+    font-size: 20px;
+    
+}
+.thirtytwo input{
+    height: 40px;
+    width: 200px;
+    padding-left: 50px;
+    font-size: 20px;
+    background-color: white;
+}
+.thirtytwo h3{
+    position: absolute;
+    left: 1200px;
+    top: 600px;
+    font-size: 20px;
+    background-color: orangered;
+    height: 40px;
+    width: 130px;
+    text-align: center;
+    padding-top: 10px;
+}
+.thirtythree p{
+    margin-top: 200px;
+    margin-left: 500px;
+    font-size: 20px;
+}
+.thirtythree h1{
+margin-top: 30px;
+    margin-left: 410px;
+    font-size: 55px;
+    opacity: 0.8;
+}
+.picture{
+    display: flex;
+    margin-left: 20px;
+    position: relative;
+    gap: 70px;
+    justify-content: space-evenly;
+}
+.food {
+    position: relative;
+
+}
+.thirtyfour {
+    display: inline-block;
+   position: absolute;
+   background-color: white;
+   height: 100px;;
+    width: 270px;
+    left: 30px;
+    border-radius: 10px;
+    top: 370px;
+   
+}
+.picture:hover .thirtyfour{
+    background-color: orangered;
+    
+}
+.fourtyone{
+    background-image: url(https://preview.colorlib.com/theme/allfood/assets/img/gallery/section_bg02.png.webp);
+    height: 600px;
+    width: 100%;
+    margin-top: 130px;
+    position: relative;
+
+}
+.fourtytwo{
+    color: white;
+    margin-left: 500px;
+    padding-top: 200px;
+}
+.fourtytwo h3{
+    opacity: 0.7;
+    padding-top: 10px;
+    
+}
+
+.control{
+    color: white;
+    margin-left: 800px;
+   bottom: 150px;
+    position: absolute;
+
+}
+.control h3{
+    
+     opacity: 0.7;
+}
+.tree h1{
+    position: absolute;
+    left: 1000px;
+    color: aliceblue;
+    bottom: 350px;
+    
+}
+.cam{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: absolute;
+    height: 270px;
+    width: 370px;
+    left: 960px;
+    bottom: 70px;
+}
+.mobil{
+    position: absolute;
+    color: white;
+    left: 1120px;
+    margin-top: 70px;
+}
+.insta h3{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+  @keyframes slideInFromLeft {
+     0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    } 
+    
+    
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    } 
+}  
+
+.slide-in-left {
+   
+    animation:  slideInFromLeft 2s  ease-out ;
+}
+
+
+
+    
+
+
